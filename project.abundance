@@ -566,11 +566,13 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
-              "ioValue": 50
+              "ioValue": 20,
+              "currentEquation": "20"
             }
           ]
         },
@@ -676,7 +678,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "cut-move-extrude-circle-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-70-move-loft-move-circle-195-0-0-0-move-circle-200-0-0-0-0-0-50",
+                    "geometry": "cut-cut-move-extrude-circle-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-30-move-loft-move-circle-195-0-0-0-move-circle-200-0-0-0-0-0-20-move-extrude-circle-195-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-0-0-20",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -696,11 +698,11 @@
                         1
                       ]
                     },
-                    "color": "#aad7f2",
+                    "color": "#91C8D5",
                     "bom": []
                   },
                   {
-                    "geometry": "move-loft-move-circle-195-0-0-0-move-circle-200-0-0-0-0-0-50",
+                    "geometry": "cut-move-loft-move-circle-195-0-0-0-move-circle-200-0-0-0-0-0-20-move-extrude-circle-195-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-0-0-20",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -1000,8 +1002,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.2692307692307692,
-          "y": 0.13541666666666666,
+          "x": 0.30506993006993005,
+          "y": 0.09148936170212767,
           "uniqueID": "dcd827d3-3da1-4368-9ea7-df5de23aa54b",
           "ioValues": [
             {
@@ -1014,7 +1016,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 70
+              "ioValue": 30,
+              "currentEquation": "30"
             }
           ]
         },
@@ -1028,7 +1031,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-extrude-circle-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-70",
+                "geometry": "move-extrude-circle-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-30",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -1048,14 +1051,14 @@
                     1
                   ]
                 },
-                "color": "#aad7f2",
+                "color": "#91C8D5",
                 "bom": []
               }
             },
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-loft-move-circle-195-0-0-0-move-circle-200-0-0-0-0-0-50",
+                "geometry": "move-loft-move-circle-195-0-0-0-move-circle-200-0-0-0-0-0-20",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -1148,6 +1151,15 @@
             }
           ],
           "closedSelection": 0
+        },
+        {
+          "atomType": "Color",
+          "name": "Color",
+          "x": 0.2438811188811189,
+          "y": 0.11702127659574468,
+          "uniqueID": "6bc8a3ea-ec80-4477-912d-a59e2514c796",
+          "ioValues": [],
+          "selectedColorIndex": 13
         }
       ],
       "allConnectors": [
@@ -1311,7 +1323,7 @@
           "ap1Name": "geometry",
           "ap2Name": "geometry",
           "ap1ID": "21007110-f7fc-4a55-a243-c5f6d4022d9e",
-          "ap2ID": "dcd827d3-3da1-4368-9ea7-df5de23aa54b"
+          "ap2ID": "6bc8a3ea-ec80-4477-912d-a59e2514c796"
         },
         {
           "ap1Name": "geometry",
@@ -1330,6 +1342,12 @@
           "ap2Name": "geometry",
           "ap1ID": "86707d55-a05b-4937-9067-9204d7afac93",
           "ap2ID": "d874e39a-393f-4241-9f98-6b2960b840bd"
+        },
+        {
+          "ap1Name": "color",
+          "ap2Name": "geometry",
+          "ap1ID": "6bc8a3ea-ec80-4477-912d-a59e2514c796",
+          "ap2ID": "dcd827d3-3da1-4368-9ea7-df5de23aa54b"
         }
       ],
       "fileTypeVersion": 1,
