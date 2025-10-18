@@ -24,12 +24,13 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -200,
-          "currentEquation": "-200"
+          "ioValue": -205,
+          "currentEquation": "-205"
         },
         {
           "name": "yDist",
-          "ioValue": 5
+          "ioValue": 5,
+          "currentEquation": "5"
         },
         {
           "name": "zDist",
@@ -51,8 +52,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 205,
+          "currentEquation": "205"
         },
         {
           "name": "zDist",
@@ -193,7 +194,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-rotate-cut-cut-cut-extrude-rectangle-8-20-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-45-move-rotate-extrude-circle-2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-90-0--18-5-35-move-rotate-extrude-circle-2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-90-0--18-5-5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0--10-35-0-0-87--200-5-0",
+            "geometry": "move-rotate-cut-cut-cut-extrude-rectangle-8-20-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-45-move-rotate-extrude-circle-2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-90-0--18-5-35-move-rotate-extrude-circle-2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-90-0--18-5-5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0--10-35-0-0-87--205-5-0",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -219,12 +220,35 @@
         },
         {
           "name": "Shape 4",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "move-rotate-cut-cut-cut-extrude-rectangle-8-20-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-45-move-rotate-extrude-circle-2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-90-0--18-5-35-move-rotate-extrude-circle-2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-90-0--18-5-5-move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0--10-35-0-0-0--5-205-0",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         },
         {
           "name": "Shape 5",
           "ioValue": {
-            "geometry": "rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-190-0-0-0-0-160",
+            "geometry": "rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-185-0-0-0-0-160",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -251,7 +275,7 @@
         {
           "name": "Shape 6",
           "ioValue": {
-            "geometry": "rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-190-0-0-0-0-130",
+            "geometry": "rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-185-0-0-0-0-130",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -278,7 +302,7 @@
         {
           "name": "Shape 7",
           "ioValue": {
-            "geometry": "rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-190-0-0-0-0-100",
+            "geometry": "rotate-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-185-0-0-0-0-100",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -359,11 +383,13 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 190
+          "ioValue": 185,
+          "currentEquation": "185"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
