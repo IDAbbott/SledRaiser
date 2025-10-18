@@ -1374,7 +1374,8 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 80
+              "ioValue": 40,
+              "currentEquation": "40"
             }
           ]
         },
@@ -1387,8 +1388,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.3,
-              "currentEquation": "6.3"
+              "ioValue": 4,
+              "currentEquation": "4"
             }
           ]
         },
@@ -1464,21 +1465,22 @@
             },
             {
               "name": "zDist",
-              "ioValue": 60
+              "ioValue": 35,
+              "currentEquation": "35"
             }
           ]
         },
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.465158371040724,
-          "y": 0.6020833333333334,
+          "x": 0.5034965034965034,
+          "y": 0.6191489361702127,
           "uniqueID": "4c60b59f-5439-4ee8-946d-860cb3baccfa",
           "ioValues": [
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-rotate-extrude-circle-3.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-90-0--15-0-60",
+                "geometry": "move-rotate-extrude-circle-2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-90-0--15-0-35",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -1505,7 +1507,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rotate-extrude-circle-3.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-90-0--15-0-10",
+                "geometry": "move-rotate-extrude-circle-2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-90-0--15-0-10",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
