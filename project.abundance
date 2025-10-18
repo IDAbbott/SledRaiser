@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "SledRaiser",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "5c8a3491-5d26-446e-b0f7-0da6b52cae00",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
