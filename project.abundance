@@ -1,15 +1,218 @@
 {
-    "atomType": "Molecule",
-    "name": "SledRaiser",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "5c8a3491-5d26-446e-b0f7-0da6b52cae00",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "SledRaiser",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "5c8a3491-5d26-446e-b0f7-0da6b52cae00",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "90bae743-94ba-41ed-8eae-edee987ab318",
+      "ioValues": []
+    },
+    {
+      "atomType": "Molecule",
+      "name": "Molecule",
+      "x": 0.09321266968325792,
+      "y": 0.2708333333333333,
+      "uniqueID": "3f3a5312-a389-44ad-be11-bd305928d18c",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "c6f4c419-b2d4-4407-92c0-32de35a4db0d",
+          "ioValues": []
+        },
+        {
+          "atomType": "Circle",
+          "name": "Circle",
+          "x": 0.09321266968325792,
+          "y": 0.5916666666666667,
+          "uniqueID": "9d0731c1-343e-457b-adcc-b41d7f54c812",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 390,
+              "currentEquation": "390"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "name": "Extrude",
+          "x": 0.20904977375565612,
+          "y": 0.6145833333333333,
+          "uniqueID": "59bdb490-c604-4ae3-9e85-ec2612d04ab5",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 20,
+              "currentEquation": "20"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "name": "Move",
+          "x": 0.31312217194570136,
+          "y": 0.4041666666666667,
+          "uniqueID": "637fac25-2fe1-40b9-afad-2390ccb5a99f",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 10,
+              "currentEquation": "10"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "name": "Move",
+          "x": 0.31900452488687786,
+          "y": 0.6291666666666667,
+          "uniqueID": "02244408-767c-406c-b990-3aecc1ff514b",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "name": "Circle",
+          "x": 0.09185520361990951,
+          "y": 0.17708333333333331,
+          "uniqueID": "5bf80324-087b-4a11-a24d-668993271fda",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 400,
+              "currentEquation": "400"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "name": "Extrude",
+          "x": 0.19185520361990951,
+          "y": 0.17708333333333331,
+          "uniqueID": "3d465e56-6da6-437c-9a24-bd4162d93ed0",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "name": "Move",
+          "x": 0.2918552036199095,
+          "y": 0.17708333333333331,
+          "uniqueID": "d874e39a-393f-4241-9f98-6b2960b840bd",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 10,
+              "currentEquation": "10"
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "name": "Difference",
+          "x": 0.3950226244343892,
+          "y": 0.2625,
+          "uniqueID": "0b83d54b-70a2-4947-b71b-059b6c5cea6c",
+          "ioValues": []
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "9d0731c1-343e-457b-adcc-b41d7f54c812",
+          "ap2ID": "59bdb490-c604-4ae3-9e85-ec2612d04ab5"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "59bdb490-c604-4ae3-9e85-ec2612d04ab5",
+          "ap2ID": "637fac25-2fe1-40b9-afad-2390ccb5a99f"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "59bdb490-c604-4ae3-9e85-ec2612d04ab5",
+          "ap2ID": "02244408-767c-406c-b990-3aecc1ff514b"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry2",
+          "ap1ID": "637fac25-2fe1-40b9-afad-2390ccb5a99f",
+          "ap2ID": "0b83d54b-70a2-4947-b71b-059b6c5cea6c"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "5bf80324-087b-4a11-a24d-668993271fda",
+          "ap2ID": "3d465e56-6da6-437c-9a24-bd4162d93ed0"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "3d465e56-6da6-437c-9a24-bd4162d93ed0",
+          "ap2ID": "d874e39a-393f-4241-9f98-6b2960b840bd"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry1",
+          "ap1ID": "d874e39a-393f-4241-9f98-6b2960b840bd",
+          "ap2ID": "0b83d54b-70a2-4947-b71b-059b6c5cea6c"
+        }
+      ],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
